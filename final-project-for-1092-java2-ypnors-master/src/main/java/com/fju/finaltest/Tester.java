@@ -34,7 +34,7 @@ public class Tester {
                     }
                     else System.out.println("第 "+(i+1)+" 家不要牌了");
                 }
-//show出最後結果
+//秀出最後結果
             System.out.println("========================最後的結果====================");
             for (i=0;i<4;i=i+1)
             {

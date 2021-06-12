@@ -47,7 +47,7 @@ class p21b implements player{
     public boolean isgo() //決定要不要再要牌
     {
         if (status==1) return false;
-        //以下改用發牌就算好的card_value
+        //以下改用發牌就算好的結果
         if (card_value<18) return true; //大於18點才不要牌了
         return false;
     }

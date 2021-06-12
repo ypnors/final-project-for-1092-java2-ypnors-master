@@ -55,7 +55,7 @@ class p21a implements player {
     {
         return card_value;
     }
-    public void set_card(int x)//overriding palyer的method，順便計算點數
+    public void set_card(int x)
     {
         int i,flag;
         int A,B;

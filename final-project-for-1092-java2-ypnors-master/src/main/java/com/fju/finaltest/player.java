@@ -2,10 +2,10 @@ package finaltest;
 
 import java.util.*;
 interface player {
-    final static String[][] cname={{"梅花","方塊","紅心","黑桃"},  //共用的對照表可以用static
+    final static String[][] cname={{"梅花","方塊","紅心","黑桃"},
             {"Club","Diamond","Hearts","Spades"},
             {"花","塊","心","桃"},
-            {"C","D","H","S"}};//設定final就不可以改
+            {"C","D","H","S"}};
     /**** method 用來show出第幾張牌 ******/
     abstract public String show(int id);
     abstract public int card_num();
